@@ -41,25 +41,33 @@ node main.js
 ## main 参数设置
 
 // gaslimit
+
 const gasLimit = 1000000
 
 // mint几只
+
 const mintCount = 1
 
 // 总价是多少
+
 const totalPrice = 1
 
 // mint function是什么
+
 const mintMethod = "mint"
 
 // 这是钱包发出的第几笔交易，如果是新创钱包从 0 开始
+
 const nonce = 1
 
 // 监听合约的控制地址
+
 const ownerAddress = '0x2f83aCfb460748e6ad9C939d599B0463e7d484Be'
 
 // 监听合约地址
+
 const contractAddress = '0x253d8314b02D3a0670cF96e0d9A6bf09b5ad1ec7'
 
 // 监听合约的 function
+
 const methodName = "setStatus"
